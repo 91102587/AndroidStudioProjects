@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="org.palmdigital.madlibpuppyluv.MainActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="310dp"
+        android:layout_weight="0.13">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="133dp"
+            android:layout_height="398dp"
+            android:weightSum="1">
+
+            <TextView
+                android:text="1. Enter Color"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:id="@+id/textViewColor"
+                android:textSize="10sp" />
+
+            <TextView
+                android:text="2. Enter Body Part"
+                android:layout_width="180dp"
+                android:layout_height="38dp"
+                android:id="@+id/textViewBodyParts"
+                android:textSize="10sp" />
+
+            <TextView
+                android:text="3. Enter Nouns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewNouns"
+                android:layout_weight="0.12"
+                android:textSize="10sp" />
+
+            <TextView
+                android:text="4. Enter Verb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewVerbs"
+                android:layout_weight="0.11"
+                android:textSize="10sp" />
+
+            <TextView
+                android:text="5. Enter Adjective"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewAdjective"
+                android:textSize="10sp"
+                android:layout_weight="0.09" />
+
+            <TextView
+                android:text="6. Enter Adjective"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewAdjective02"
+                android:layout_weight="0.10"
+                android:textSize="10sp" />
+
+            <TextView
+                android:text="7. Enter Verbs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewVerb02"
+                android:textSize="10sp"
+                android:layout_weight="0.11" />
+
+            <TextView
+                android:text="8. Enter Noun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewNoun02"
+                android:textSize="10sp"
+                android:layout_weight="0.10" />
+
+            <TextView
+                android:text="9. Enter Noun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewNoun03"
+                android:textSize="10sp"
+                android:layout_weight="0.10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="186dp"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="1. "
+                android:ems="10"
+                android:id="@+id/editTextColor01"
+                android:textSize="10sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="2. "
+                android:ems="10"
+                android:id="@+id/editTextBodyParts01"
+                android:textSize="10sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="3. "
+                android:ems="10"
+                android:id="@+id/editTextNouns01"
+                android:textSize="10sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="4. "
+                android:ems="10"
+                android:id="@+id/editTextVerb01"
+                android:textSize="10sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="5. "
+                android:ems="10"
+                android:id="@+id/editTextAdjective01"
+                android:textSize="10sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="6. "
+                android:ems="10"
+                android:id="@+id/editTextAdjective02"
+                android:textSize="10sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="7. "
+                android:ems="10"
+                android:id="@+id/editTextVerb02"
+                android:textSize="10sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="8. "
+                android:ems="10"
+                android:id="@+id/editTextNoun02"
+                android:textSize="10sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="9."
+                android:ems="10"
+                android:id="@+id/editTextNoun03"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewStoryLine"
+        android:textAlignment="center"
+        android:textSize="10sp" />
+
+    <Button
+        android:text="Story"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/button"
+        android:onClick="makeStory"
+        android:textSize="14sp"
+        android:layout_weight="0.13" />
+
+</LinearLayout>

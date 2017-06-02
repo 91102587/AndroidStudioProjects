@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.palmdigital.chooseadventurev01">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WakeUpActivity" />
+        <activity android:name=".ExploreActivity" />
+        <activity android:name=".BackyardActivity" />
+        <activity android:name=".TolietActivity" />
+        <activity android:name=".ScreamActivity" />
+        <activity android:name=".FaintActivity" />
+        <activity android:name=".YesActivity" />
+        <activity android:name=".HeckYesActivity" />
+        <activity
+            android:name=".WakeUpActivity2"
+            android:label="@string/title_activity_wake_up2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
